@@ -39,18 +39,6 @@ A modern React-based product catalog application with user authentication, produ
 
 ## 📸 Screenshots
 
-### Login Page
-<!-- TODO: Add screenshot of login page here -->
-*Screenshot of login page will be added here*
-
-### Dashboard / Product Catalog
-<!-- TODO: Add screenshot of dashboard here -->
-*Screenshot of dashboard will be added here*
-
-### Responsiveness
-<!-- TODO: Add screenshot of mobile view here -->
-*Screenshot of mobile view will be added here*
-
 > ### ⚠️ **IMPORTANT NOTE:** 
 > 
 > ```diff
@@ -58,6 +46,16 @@ A modern React-based product catalog application with user authentication, produ
 > ```
 > 
 > These are placeholder UI elements only and do not have actual functionality.
+
+### Login Page
+<img width="1149" height="1018" alt="Screenshot 2025-07-21 222926" src="https://github.com/user-attachments/assets/98e7a9d9-f0a6-4a60-9c2f-1e65bb070bb5" />
+
+### Dashboard / Product Catalog
+<img width="1152" height="809" alt="Screenshot 2025-07-21 223025" src="https://github.com/user-attachments/assets/cae3c52c-9927-46b2-9c2c-669ab9e4963b" />
+
+### Responsiveness
+<img width="905" height="817" alt="Screenshot 2025-07-21 223259" src="https://github.com/user-attachments/assets/2e37d83f-f0d9-490a-8915-ee778c1d98dd" />
+
 
 ## 🛠️ Technologies Used
 
