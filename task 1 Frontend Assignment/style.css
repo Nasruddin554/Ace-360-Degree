@@ -1,0 +1,116 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(120deg, #3a8dde 0%, #3ed6c5 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero .container {
+    z-index: 2;
+    position: relative;
+}
+
+.laptop-img {
+    max-width: 80%;
+    margin-top: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-18px);
+    }
+}
+
+.navbar {
+    background: transparent !important;
+    transition: background 0.3s;
+}
+
+.navbar.scrolled {
+    background: #2563eb !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.navbar .navbar-brand {
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background: #2563eb;
+    border: none;
+    border-radius: 30px;
+    padding: 0.7rem 2.2rem;
+    font-size: 1.1rem;
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background: #3ed6c5;
+    color: #fff;
+}
+
+.process-step {
+    background: #f4f8ff;
+    /* Lighter card background for contrast */
+    border-radius: 20px;
+    box-shadow: 0 4px 24px rgba(62, 214, 197, 0.13), 0 2px 12px rgba(0, 0, 0, 0.06);
+    padding: 48px 18px 32px 18px;
+    /* Increased padding for larger card */
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 150px;
+    /* Increased width */
+    min-height: 200px;
+    /* Ensure card is taller */
+    border: 1.5px solid #e0e7ff;
+    /* Subtle border for visibility */
+}
+
+.process-step:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 8px 24px rgba(62, 214, 197, 0.15);
+}
+
+.process-step .icon img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 18px;
+}
+
+@media (max-width: 767px) {
+    .hero .container {
+        padding-top: 80px;
+    }
+
+    .laptop-img {
+        margin-top: 20px;
+    }
+
+    .process-step {
+        width: 120px;
+        padding: 28px 8px 18px 8px;
+        min-height: 140px;
+    }
+
+    .process-step .icon img {
+        width: 36px;
+        height: 36px;
+        margin-bottom: 10px;
+    }
+}
